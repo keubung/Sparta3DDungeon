@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public interface IInteractable
-{
-    public string GetInteractPrompt();
-    public void OnInteract();
-}
+//public interface IInteractable
+//{
+//    public string GetInteractPrompt();
+//    public void OnInteract();
+//}
 
-public class ItemObject : MonoBehaviour
+public class ItemObject : MonoBehaviour, IInteractable
 {
     public ItemData data;
 

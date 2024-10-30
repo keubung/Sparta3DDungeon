@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Item_Pills
   m_EditorClassIdentifier: 
   displayName: "\uB3C4\uD551"
-  description: "\uC77C\uC2DC\uC801\uC73C\uB85C \uC18D\uB3C4\uAC00 \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
+  description: "\uC77C\uC2DC\uC801\uC73C\uB85C \uACF5\uACA9\uB825\uC774 \uB192\uC544\uC9D1\uB2C8\uB2E4."
   type: 1
   icon: {fileID: 21300000, guid: d55da2b36ec3d4a41947260934325bac, type: 3}
   dropPrefab: {fileID: 2408113043480102725, guid: 33da4a8fa33feb34cbc3c5c3ffac6020, type: 3}
   canStack: 1
   maxStackAmount: 12
-  consumables: []
+  consumables:
+  - type: 3
+    value: 10
